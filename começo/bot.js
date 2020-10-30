@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 //agora vamos criar o nosso primeiro comando, vamos criar um evento, chamado message, que é nada menos que um evento de mensagem quando o bot detecta uma mensagem.
 client.on('message', message => {
-  if (message.author.bot) // aqui verificamos se o autor da mensagem não é o propio bot, isso serve tambem para o bot nao ficar respondendo o proprio comando.
+  if (message.author.bot) return; // aqui verificamos se o autor da mensagem não é o propio bot, isso serve tambem para o bot nao ficar respondendo o proprio comando.
   if (message.content === 'ping') {
   //aqui em cima definimos os conteudo da mensagem em que 'ativara' o bot, ele respondera a apenas o conteudo fornecido dentro do if
   message.reply(`pong, latencia do bot ${Date.now () - message.createdTimestamp}ms, latencia da api ${Math.round(client.ws.ping)}ms`)
