@@ -1,3 +1,4 @@
+[![Discord Bots](https://top.gg/api/widget/status/726932863722979388.svg)](https://top.gg/bot/726932863722979388)
 # server-managerBOT
  this repository was created to help people who have doubts on how to make their bot pro Discord, in JavaScript
  este repositorio foi criado con o intuito de ajudar as pessoas a construir os seus bots pro Discord , epecialmente feito para voce que está travado em alguma parte do seu code
