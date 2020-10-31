@@ -1,0 +1,8 @@
+bom, aqui basicamente começamos a trabalhar com organização, um bom programador deixa as coisas organizadas!! 
+o manipulador de comando funciona basicamente em separar arquivos em pastas.
+vamos criar apenas a events e commands que nada mais é que os comandos do seu bot e os eventos.
+serve tambem para o seu arquivo principal não ficar gigantesco com varios else if ou varios eventos de mensagens , assim deixando bagunçado.
+Vamos manipular pastas , são elas a citadas a cima, events e commands.
+e vamos manipular oque existe dentro dessas pastas.
+- Começamos a criar um manipulador de comandos basico, assim depois voce mesmo pode criar o seu, ou usar algum modulo que te ajude a fazer um
+voce pode optar por usar o advanced-command-handler, basta ler as documentações dele e criar o seu manipulador.
